@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="TC_Trunk_BuildDist" type="teamcity">
+    <properties>
+      <option name="artifactRules" value="devPackage/*.jar=&gt;lib" />
+      <option name="buildTypeID" value="TC_Trunk_BuildDist" />
+      <option name="cleanDestination" value="true" />
+      <option name="revision" value="lastSuccessful" />
+      <option name="serverURL" value="http://buildserver" />
+    </properties>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/agent-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/common-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/server-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/server-common-api.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

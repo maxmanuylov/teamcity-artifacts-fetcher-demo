@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="dist">
+    <output-path>$PROJECT_DIR$/out/artifacts/dist</output-path>
+    <root id="root">
+      <element id="archive" name="dist.zip">
+        <element id="artifact" artifact-name="myprogram" />
+      </element>
+    </root>
+  </artifact>
+</component>
